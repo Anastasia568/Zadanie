@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Форма</h1>
+    <form action="" enctype="multipart/form-data">
+        <p>ФИО</p>
+        <input type="text" name="FIO" maxlength="35">
+        <p>Почта</p>
+        <input type="email" name="Mail" id="">
+        <p>Пароль для ЛК</p>
+        <input type="password" name="" id="">
+        <p>Биография</p>
+        <textarea name="BIO" id="" rows="5"></textarea>
+        <p>Желаемая вакансия</p>
+        <select name="prof" id="">
+            <option value="0"></option>
+            <option value="1">Программист</option>
+            <option value="2">Тестировщик</option>
+            <option value="3">Аналитик</option>
+        </select>
+        <p>Владение языками</p>
+        <input type="checkbox" name="" id="">С# <br><input type="checkbox" name="" id="">C++ <br><input type="checkbox" name="" id="">JS <br><input type="checkbox" name="" id="">Python
+        <br>
+        <p>Дополнительный навык:</p>
+        <input type="radio" name="" id="">Владение иностранным языком <br>
+        <input type="radio" name="" id="">Безошибочность <br>
+        <input type="radio" name="" id="">Коммуникативность <br><br>
+        <p>Приложите документы</p>
+        <input type="file" name="" id="">
+        <br>
+        <input type="image" src="a.jpg" width="200" onclick="alert('цветочек')">
+        <br><br>
+        <input type="reset" value="Очистить форму">
+        <input type="submit" value="Отправить">
+        <br><br>
+        <input type="hidden" name="something" value="Скрытое значение">
+    </form>
+</body>
+</html>
