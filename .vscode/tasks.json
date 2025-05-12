@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Install dependencies",
+        "type": "npm",
+        "script": "install",
+      },
+      {
+        "label": "Start browser",
+        "type": "shell",
+        "command": "start msedge http://localhost:5173",
+      }
+      
+    ]
+  }
